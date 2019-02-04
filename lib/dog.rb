@@ -10,8 +10,8 @@ class Dog
   end
   
   def self.all 
-    @@all.each { |name| }
-    puts name
+    @@all.each { |k, v| }
+    puts v
   end
   
   
