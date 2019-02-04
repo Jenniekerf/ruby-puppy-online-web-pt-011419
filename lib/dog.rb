@@ -9,4 +9,8 @@ class Dog
     @@all << self
   end
   
+  def self.all 
+    @@all.each { |dog_names| }
+  end
+  
 end
